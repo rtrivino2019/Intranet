@@ -22,7 +22,7 @@ class ReplicateOrderPage extends Page
 
     public static $icon = 'heroicon-o-duplicate';
 
-    protected static bool $shouldRegisterNavigation = true;
+    protected static bool $shouldRegisterNavigation = false;
     
 
  

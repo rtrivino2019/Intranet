@@ -29,7 +29,7 @@ class OrderPolicy
      */
     public function create(User $user): bool
     {
-        return $user->hasRole(['Owner','Admin','Manager','Consultant','Assistant Manager','Kitchen Manager']);
+        return $user->hasRole(['Owner','Admin']);
     }
 
     /**
